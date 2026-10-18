@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แผนการจัดการเรียนรู้ - การพัฒนาเว็บแอปพลิเคชันทางด้านธุรกิจดิจิทัล</title>
+    <!-- นำเข้า Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- นำเข้าฟอนต์ภาษาไทย Sarabun -->
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Sarabun', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- ส่วนหัวเว็บไซต์ (Header) -->
+    <header class="bg-blue-800 text-white py-10 px-6 shadow-md">
+        <div class="max-w-6xl mx-auto">
+            <h1 class="text-3xl font-bold mb-2">แผนการจัดการเรียนรู้ 18 สัปดาห์</h1>
+            <h2 class="text-xl">รหัสวิชา: 21-40204-2401 การพัฒนาเว็บแอปพลิเคชันทางด้านธุรกิจดิจิทัล 3(2-2-5)</h2>
+            <p class="mt-2 text-blue-200 text-lg">วิทยาลัยเทคนิคกระบี่</p>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 py-8">
+        
+        <!-- ส่วนเกณฑ์การให้คะแนน (Grading) -->
+        <section class="bg-white rounded-lg shadow-sm p-6 border border-gray-200 mb-8">
+            <h3 class="text-2xl font-semibold text-blue-800 mb-4 border-b pb-2">เกณฑ์การประเมินผล (100%)</h3>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-4 text-center">
+                <div class="bg-orange-100 p-4 rounded-lg border border-orange-200">
+                    <p class="text-gray-600 mb-1">จิตพิสัย (เวลาเรียน/พฤติกรรม)</p>
+                    <p class="text-3xl font-bold text-orange-600">20%</p>
+                </div>
+                <div class="bg-blue-100 p-4 rounded-lg border border-blue-200">
+                    <p class="text-gray-600 mb-1">สอบกลางภาค</p>
+                    <p class="text-3xl font-bold text-blue-600">20%</p>
+                </div>
+                <div class="bg-green-100 p-4 rounded-lg border border-green-200">
+                    <p class="text-gray-600 mb-1">ปฏิบัติงาน / โครงงาน (Workshop)</p>
+                    <p class="text-3xl font-bold text-green-600">40%</p>
+                </div>
+                <div class="bg-purple-100 p-4 rounded-lg border border-purple-200">
+                    <p class="text-gray-600 mb-1">สอบปลายภาค</p>
+                    <p class="text-3xl font-bold text-purple-600">20%</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ส่วนคำอธิบายรายวิชา -->
+        <section class="bg-white rounded-lg shadow-sm p-6 border border-gray-200 mb-8">
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">คำอธิบายรายวิชา</h3>
+            <p class="text-gray-600 leading-relaxed">
+                ศึกษาและปฏิบัติเกี่ยวกับพื้นฐานและการทำงานของบริการเว็บบนระบบอินเทอร์เน็ต (World Wide Web) การพัฒนาเว็บไซต์ด้วยโปรแกรมระบบจัดการเนื้อหา (Content Management System : CMS) หรือพัฒนาเว็บไซต์ด้วยโปรแกรมอื่นๆ การติดตั้ง การบำรุงรักษาระบบ และจัดทำคู่มือ กรณีศึกษา การทำ Search Engine Optimization (SEO)
+            </p>
+        </section>
+
+        <!-- ส่วนตารางแผนการสอน 18 สัปดาห์ -->
+        <h3 class="text-2xl font-semibold text-blue-800 mb-6">กำหนดการสอน (สัปดาห์ละ 4 ชั่วโมง)</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+            <!-- Card สัปดาห์ที่ 1 -->
+            <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition">
+                <div class="bg-blue-50 px-4 py-3 border-b border-gray-200 flex justify-between items-center">
+                    <span class="font-bold text-blue-800">สัปดาห์ที่ 1</span>
+                    <span class="text-sm text-gray-500 bg-white px-2 py-1 rounded-full border">4 ชม.</span>
+                </div>
+                <div class="p-4">
+                    <h4 class="font-semibold mb-2">พื้นฐานระบบอินเทอร์เน็ต</h4>
+                    <ul class="list-disc list-inside text-sm text-gray-600 space-y-1">
+                        <li>ปฐมนิเทศและชี้แจงเกณฑ์การให้คะแนน (จิตพิสัย 20%)</li>
+                        <li>พื้นฐานการทำงานของบริการเว็บ (WWW)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Card สัปดาห์ที่ 2 -->
+            <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition">
+                <div class="bg-blue-50 px-4 py-3 border-b border-gray-200 flex justify-between items-center">
+                    <span class="font-bold text-blue-800">สัปดาห์ที่ 2</span>
+                    <span class="text-sm text-gray-500 bg-white px-2 py-1 rounded-full border">4 ชม.</span>
+                </div>
+                <div class="p-4">
+                    <h4 class="font-semibold mb-2">หลักการพัฒนาเว็บไซต์ดิจิทัล</h4>
+                    <ul class="list-disc list-inside text-sm text-gray-600 space-y-1">
+                        <li>หลักการพัฒนาเว็บไซต์สำหรับธุรกิจดิจิทัล</li>
+                        <li>การวิเคราะห์ความต้องการและการวางโครงสร้างเว็บ</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Card สัปดาห์ที่ 3 -->
+            <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition">
+                <div class="bg-blue-50 px-4 py-3 border-b border-gray-200 flex justify-between items-center">
+                    <span class="font-bold text-blue-800">สัปดาห์ที่ 3</span>
+                    <span class="text-sm text-gray-500 bg-white px-2 py-1 rounded-full border">4 ชม.</span>
+                </div>
+                <div class="p-4">
+                    <h4 class="font-semibold mb-2">รู้จักกับระบบ CMS</h4>
+                    <ul class="list-disc list-inside text-sm text-gray-600 space-y-1">
+                        <li>หลักการทำงานของระบบจัดการเนื้อหา (CMS)</li>
+                        <li>เปรียบเทียบ CMS สำหรับภาคธุรกิจ</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Card สัปดาห์ที่ 4 -->
+            <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition">
+                <div class="bg-blue-50 px-4 py-3 border-b border-gray-200 flex justify-between items-center">
+                    <span class="font-bold text-blue-800">สัปดาห์ที่ 4</span>
+                    <span class="text-sm text-gray-500 bg-white px-2 py-1 rounded-full border">4 ชม.</span>
+                </div>
+                <div class="p-4">
+                    <h4 class="font-semibold mb-2">การติดตั้งระบบ CMS</h4>
+                    <ul class="list-disc list-inside text-sm text-gray-600 space-y-1">
+                        <li>การจำลองเซิร์ฟเวอร์และสร้างฐานข้อมูล</li>
+                        <li>ปฏิบัติการติดตั้งโปรแกรม CMS</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Card สัปดาห์ที่ 5 -->
+            <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition">
+                <div class="bg-blue-50 px-4 py-3 border-b border-gray-200 flex justify-between items-center">
+                    <span class="font-bold text-blue-800">สัปดาห์ที่ 5</span>
+                    <span class="text-sm text-gray-500 bg-white px-2 py-1 rounded-full border">4 ชม.</span>
+                </div>
+                <div class="p-4">
+                    <h4 class="font-semibold mb-2">การปรับแต่ง Theme / Template</h4>
+                    <ul class="list-disc list-inside text-sm text-gray-600 space-y-1">
+                        <li>การเลือกใช้และติดตั้งเทมเพลตสำหรับธุรกิจ</li>
+                        <li>ปฏิบัติการปรับแต่งการแสดงผลส่วนหน้า (Front-end)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Card สัปดาห์ที่ 6 -->
+            <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition">
+                <div class="bg-blue-50 px-4 py-3 border-b border-gray-200 flex justify-between items-center">
+                    <span class="font-bold text-blue-800">สัปดาห์ที่ 6</span>
+                    <span class="text-sm text-gray-500 bg-white px-2 py-1 rounded-full border">4 ชม.</span>
+                </div>
+                <div class="p-4">
+                    <h4 class="font-semibold mb-2">การจัดการเนื้อหาข้อมูล</h4>
+                    <ul class="list-disc list-inside text-sm text-gray-600 space-y-1">
+                        <li>การสร้าง Pages, Posts และหมวดหมู่ธุรกิจ</li>
+                        <li>การจัดการสื่อมัลติมีเดีย (รูปภาพ, วิดีโอ) บนเว็บไซต์</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Card สัปดาห์ที่ 7 -->
+            <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition">
+                <div class="bg-blue-50 px-4 py-3 border-b border-gray-200 flex justify-between items-center">
+                    <span class="font-bold text-blue-800">สัปดาห์ที่ 7</span>
+                    <span class="text-sm text-gray-500 bg-white px-2 py-1 rounded-full border">4 ชม.</span>
+                </div>
+                <div class="p-4">
+                    <h4 class="font-semibold mb-2">การใช้โปรแกรมเสริม (Plugins)</h4>
+                    <ul class="list-disc list-inside text-sm text-gray-600 space-y-1">
+                        <li>พัฒนาเว็บไซต์ด้วยการติดตั้งส่วนเสริม</li>
+                        <li>เพิ่มฟังก์ชันฟอร์มติดต่อ, การเชื่อมต่อ Social Media</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Card สัปดาห์ที่ 8 -->
+            <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition">
+                <div class="bg-blue-50 px-4 py-3 border-b border-gray-200 flex justify-between items-center">
+                    <span class="font-bold text-blue-800">สัปดาห์ที่ 8</span>
+                    <span class="text-sm text-gray-500 bg-white px-2 py-1 rounded-full border">4 ชม.</span>
+                </div>
+                <div class="p-4">
+                    <h4 class="font-semibold mb-2">กรณีศึกษาเว็บไซต์ธุรกิจ</h4>
+                    <ul class="list-disc list-inside text-sm text-gray-600 space-y-1">
+                        <li>ศึกษากรณีศึกษาเว็บไซต์ธุรกิจที่ประสบความสำเร็จ</li>
+                        <li>วิเคราะห์องค์ประกอบที่ทำให้เว็บตอบโจทย์ลูกค้า</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Card สัปดาห์ที่ 9 (สอบกลางภาค) -->
+            <div class="bg-blue-800 text-white rounded-lg shadow-sm overflow-hidden flex flex-col justify-center text-center p-6">
+                <span class="text-sm text-blue-200 mb-1">สัปดาห์ที่ 9</span>
+                <h4 class="text-2xl font-bold">สอบกลางภาค</h4>
+                <p class="text-blue-100 text-sm mt-2">ประเมินผลความรู้และการปฏิบัติงาน</p>
+            </div>
+
+            <!-- Card สัปดาห์ที่ 10 -->
+            <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition">
+                <div class="bg-blue-50 px-4 py-3 border-b border-gray-200 flex justify-between items-center">
+                    <span class="font-bold text-blue-800">สัปดาห์ที่ 10</span>
+                    <span class="text-sm text-gray-500 bg-white px-2 py-1 rounded-full border">4 ชม.</span>
+                </div>
+                <div class="p-4">
+                    <h4 class="font-semibold mb-2">พื้นฐาน SEO</h4>
+                    <ul class="list-disc list-inside text-sm text-gray-600 space-y-1">
+                        <li>หลักการทำ Search Engine Optimization (SEO)</li>
+                        <li>การวิเคราะห์คำค้นหา (Keyword Research)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Card สัปดาห์ที่ 11 -->
+            <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition">
+                <div class="bg-blue-50 px-4 py-3 border-b border-gray-200 flex justify-between items-center">
+                    <span class="font-bold text-blue-800">สัปดาห์ที่ 11</span>
+                    <span class="text-sm text-gray-500 bg-white px-2 py-1 rounded-full border">4 ชม.</span>
+                </div>
+                <div class="p-4">
+                    <h4 class="font-semibold mb-2">การทำ On-Page SE</h4>
+                    <ul class="list-disc list-inside text-sm text-gray-600 space-y-1">
+                        <li>ปฏิบัติการปรับแต่ง Title, Meta Tags และ URL</li>
+                        <li>การเขียนโครงสร้างเนื้อหาให้รองรับ SEO</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Card สัปดาห์ที่ 12 -->
+            <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition">
+                <div class="bg-blue-50 px-4 py-3 border-b border-gray-200 flex justify-between items-center">
+                    <span class="font-bold text-blue-800">สัปดาห์ที่ 12</span>
+                    <span class="text-sm text-gray-500 bg-white px-2 py-1 rounded-full border">4 ชม.</span>
+                </div>
+                <div class="p-4">
+                    <h4 class="font-semibold mb-2">การวัดผลและเครื่องมือ SEO</h4>
+                    <ul class="list-disc list-inside text-sm text-gray-600 space-y-1">
+                        <li>เชื่อมต่อระบบกับ Google Analytics และ Search Console</li>
+                        <li>การปรับแต่งความเร็วในการโหลดเว็บไซต์</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Card สัปดาห์ที่ 13 -->
+            <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition">
+                <div class="bg-blue-50 px-4 py-3 border-b border-gray-200 flex justify-between items-center">
+                    <span class="font-bold text-blue-800">สัปดาห์ที่ 13</span>
+                    <span class="text-sm text-gray-500 bg-white px-2 py-1 rounded-full border">4 ชม.</span>
+                </div>
+                <div class="p-4">
+                    <h4 class="font-semibold mb-2">โครงงานเว็บไซต์ (Workshop 1)</h4>
+                    <ul class="list-disc list-inside text-sm text-gray-600 space-y-1">
+                        <li>เริ่มพัฒนาเว็บไซต์โครงงานทางด้านธุรกิจดิจิทัล</li>
+                        <li>วางระบบโครงสร้างและดีไซน์หน้าเว็บจริง</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Card สัปดาห์ที่ 14 -->
+            <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition">
+                <div class="bg-blue-50 px-4 py-3 border-b border-gray-200 flex justify-between items-center">
+                    <span class="font-bold text-blue-800">สัปดาห์ที่ 14</span>
+                    <span class="text-sm text-gray-500 bg-white px-2 py-1 rounded-full border">4 ชม.</span>
+                </div>
+                <div class="p-4">
+                    <h4 class="font-semibold mb-2">โครงงานเว็บไซต์ (Workshop 2)</h4>
+                    <ul class="list-disc list-inside text-sm text-gray-600 space-y-1">
+                        <li>เพิ่มฟีเจอร์ธุรกิจ เช่น ระบบติดต่อลูกค้า/ตะกร้าสินค้า</li>
+                        <li>ทดสอบการแสดงผลบนอุปกรณ์เคลื่อนที่ (Responsive)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Card สัปดาห์ที่ 15 -->
+            <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition">
+                <div class="bg-blue-50 px-4 py-3 border-b border-gray-200 flex justify-between items-center">
+                    <span class="font-bold text-blue-800">สัปดาห์ที่ 15</span>
+                    <span class="text-sm text-gray-500 bg-white px-2 py-1 rounded-full border">4 ชม.</span>
+                </div>
+                <div class="p-4">
+                    <h4 class="font-semibold mb-2">การจัดทำคู่มือระบบ</h4>
+                    <ul class="list-disc list-inside text-sm text-gray-600 space-y-1">
+                        <li>จัดทำคู่มือการใช้งานเว็บไซต์สำหรับผู้ใช้และแอดมิน</li>
+                        <li>ปฏิบัติการสร้างเอกสารคู่มือ</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Card สัปดาห์ที่ 16 -->
+            <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition">
+                <div class="bg-blue-50 px-4 py-3 border-b border-gray-200 flex justify-between items-center">
+                    <span class="font-bold text-blue-800">สัปดาห์ที่ 16</span>
+                    <span class="text-sm text-gray-500 bg-white px-2 py-1 rounded-full border">4 ชม.</span>
+                </div>
+                <div class="p-4">
+                    <h4 class="font-semibold mb-2">การบำรุงรักษาระบบ</h4>
+                    <ul class="list-disc list-inside text-sm text-gray-600 space-y-1">
+                        <li>การสำรองข้อมูล (Backup) และรักษาความปลอดภัย</li>
+                        <li>ปฏิบัติการบำรุงรักษาระบบและการอัปเดตเวอร์ชัน</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Card สัปดาห์ที่ 17 -->
+            <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition">
+                <div class="bg-blue-50 px-4 py-3 border-b border-gray-200 flex justify-between items-center">
+                    <span class="font-bold text-blue-800">สัปดาห์ที่ 17</span>
+                    <span class="text-sm text-gray-500 bg-white px-2 py-1 rounded-full border">4 ชม.</span>
+                </div>
+                <div class="p-4">
+                    <h4 class="font-semibold mb-2">นำเสนอโครงงาน</h4>
+                    <ul class="list-disc list-inside text-sm text-gray-600 space-y-1">
+                        <li>นำเสนอโครงงานเว็บไซต์ธุรกิจดิจิทัล</li>
+                        <li>ส่งมอบงานเว็บไซต์ พร้อมคู่มือการใช้งาน</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Card สัปดาห์ที่ 18 (สอบปลายภาค) -->
+            <div class="bg-purple-800 text-white rounded-lg shadow-sm overflow-hidden flex flex-col justify-center text-center p-6">
+                <span class="text-sm text-purple-200 mb-1">สัปดาห์ที่ 18</span>
+                <h4 class="text-2xl font-bold">สอบปลายภาค</h4>
+                <p class="text-purple-100 text-sm mt-2">ประเมินผลสมรรถนะรายวิชาทั้งหมด</p>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 text-gray-400 py-6 text-center mt-10">
+        <p>แผนการจัดการเรียนรู้ วิทยาลัยเทคนิคกระบี่ : By Visutr Maschai</p>
+    </footer>
+
+</body>
+</html>
